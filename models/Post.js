@@ -13,7 +13,8 @@ const PostSchema = new Schema({
     category: {
 
         type: Schema.Types.ObjectId,
-        ref: 'categories'
+        ref: 'categories',
+        default: 'NODE'
 
     },
 
