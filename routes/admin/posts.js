@@ -78,7 +78,7 @@ router.post('/create', (req, res)=>{
 
     } else {
 
-     let filename = 'BMW-Z4.jpg';
+     let filename = 'Default';
 
      if(!isEmpty(req.files)){
 
